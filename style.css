@@ -295,6 +295,23 @@ section{
     margin: auto 0;
 }
 
+/* ACTUAL EXPERIENCE */
+.experience-sub-title-company{
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+    font-size: 1.75rem;
+}
+
+.experience-article{
+    display: flex;
+    width: 100%;
+    justify-content: left;
+    gap: 0.5rem
+}
+
+.justify{
+    text-align: justify;
+}
 /* EXPERIENCE SECTION */
 #experience{
     position: relative;
@@ -325,7 +342,7 @@ section{
 article{
     display: flex;
     width: 10rem;
-    justify-content: space-around;
+    justify-content: left;
     gap: 0.5rem
 }
 
