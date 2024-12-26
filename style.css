@@ -161,8 +161,8 @@ section{
 
 .section__pic-container{
     display: flex;
-    height: 400px;
-    width: 400px;
+    height: 100%;
+    width: 100%;
     margin: auto 0;
     justify-content: center;
 }
