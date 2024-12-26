@@ -297,6 +297,10 @@ section{
 }
 
 /* ACTUAL EXPERIENCE */
+#experience-actual{
+    position: relative;
+}
+
 .experience-sub-title-company{
     color: rgb(85, 85, 85);
     font-weight: 600;
@@ -477,3 +481,7 @@ footer p{
     color: #ccc;
   }
   
+  /* IMAGES */
+  img.hdr {
+    display: none;
+}

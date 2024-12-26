@@ -13,10 +13,10 @@
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
+                <li><a href="#experience-actual">Experience</a></li>
+                <li><a href="#experience">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
-
             </ul>
         </div>
     </nav>
@@ -30,7 +30,8 @@
             </div>
             <div class="menu-links">
                 <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#experience-actual" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
                 <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
                 <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
             </div>
@@ -61,7 +62,7 @@
         <h1 class="title">About Me</h1>
         <div class="section-container">
             <div class="section__pic-container">
-                <img src="./assets/about-me-pic.jpeg" alt="profile picture" class="about-pic"/>
+                <img src="./assets/about-me-pic.jpg" alt="profile picture" class="about-pic"/>
             </div>
             <div class="about-details-container">
                 <div class="about-containers">
@@ -93,9 +94,9 @@
                 </div>
             </div>
         </div>
-        <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#experience'"/>
+        <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#experience-actual'"/>
     </section>
-    <section id = "experience actual">
+    <section id = "experience-actual">
         <p class="section__text__p1">Explore My</p>
         <h1 class="title">Experience</h1>
         <div class="experience-details-container actual-experience">
@@ -143,8 +144,13 @@
                     </div>
                 </div>
             </div>
-
         </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#experience'"
+        />
     </section>
     <section id="experience">
         <p class="section__text__p1">Explore My</p>
