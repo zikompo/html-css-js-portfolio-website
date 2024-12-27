@@ -28,12 +28,13 @@ a, .btn {
 /* DESKTOP NAV */
 nav, .nav-links{
     display: flex;
+    margin-bottom: 1rem;
 }
 
 nav {
     justify-content: space-around;
     align-items: center;
-    height: 17vh;
+    height: 17%;
 }
 
 .nav-links{
@@ -140,8 +141,8 @@ a:hover{
 
 /* SECTIONS */
 section{
-    padding-top: 4vh;
-    height: 96vh;
+    padding-top: 4%;
+    height: 96%;
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
@@ -156,7 +157,7 @@ section{
     display: flex;
     justify-content: center;
     gap: 5rem;
-    height: 80vh;
+    height: 80%;
 }
 
 .section__pic-container{
@@ -388,7 +389,7 @@ article .icon{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 70vh;
+    height: 70%;
 }
 
 .contact-info-upper-container{
@@ -424,7 +425,7 @@ article .icon{
 
 /* FOOTER */
 footer{
-    height: 26vh;
+    height: 26%;
     margin: 0 1rem;
 }
 
