@@ -385,6 +385,40 @@ article .icon{
     border-color: rgb(163, 163, 163);
 }
 
+
+#projects .about-containers {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch; /* Ensures all project containers stretch equally */
+}
+
+#projects .details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    min-height: 400px; /* Adjust as needed to ensure all are equal */
+}
+
+#projects .project-title {
+    flex-grow: 1; /* Makes sure all titles take equal space */
+    text-align: center;
+}
+
+#projects .btn-container {
+    margin-top: auto; /* Pushes the button to the bottom */
+    padding-bottom: 1rem; /* Adds uniform spacing from the bottom */
+}
+
+#projects .details-container .article-container {
+    flex-grow: 1; /* Ensures the image and title take equal space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 /* CONTACT */
 #contact{
     display: flex;
