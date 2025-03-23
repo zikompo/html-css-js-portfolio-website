@@ -523,3 +523,7 @@ footer p{
   img.hdr {
     display: none;
 }
+
+.round-img {
+    border-radius: 50%;
+}
